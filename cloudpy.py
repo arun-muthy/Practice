@@ -3,7 +3,7 @@ import csv
 
 f = open('log_b.txt',mode='r')
 new_log = open('log_a.csv','a')
-writer = csv.writer(new_log)
+writer = csv.writer(new_log )
 writer.writerow(['Ip','Time','Request_Type','Serverside_Status','num_of_bytes','URL'])
 for line in f:
 
