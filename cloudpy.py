@@ -1,4 +1,4 @@
-import pandas as pd
+
 import csv
 
 f = open('log_b.txt',mode='r')
